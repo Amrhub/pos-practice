@@ -40,7 +40,7 @@ There are unit tests for each service.
     npm test # run tests
 ```
 
-## Authors
+## Author
 
 👤 **Amr Ahmed**
 
