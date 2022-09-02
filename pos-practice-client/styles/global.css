@@ -1,0 +1,15 @@
+a {
+  color: rgb(25 118 210);
+  text-decoration: underline;
+  text-decoration-color: rgb(25 118 210 / 40%);
+}
+
+a:hover {
+  text-decoration-color: inherit;
+}
+
+#__next {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
