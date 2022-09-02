@@ -57,7 +57,7 @@ const Rank = () => {
           </Stack>
         </>
       ) : (
-        <Typography variant='h2' color={isError()}>
+        <Typography variant='h2' color={isError()} align='center'>
           {stateMessage}
         </Typography>
       )}

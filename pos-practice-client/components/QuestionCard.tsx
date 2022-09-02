@@ -57,7 +57,7 @@ const QuestionCard = ({ correctAnswer, word, nextWord, isGameOver }: IProps) => 
         setOpened(true);
         setMessage({ content: '', color: 'success.main' });
       }, 500);
-    }, 1500);
+    }, 750);
   };
 
   return (
