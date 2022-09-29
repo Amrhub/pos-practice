@@ -23,7 +23,6 @@ jobs:
     env:
       SECRET_VAR: ${{ secrets.SECRET_VAR }}
       region: Egypt
-      SECRET_VAR_REPO: ${{ secrets.SECRET_VAR_REPO }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -33,4 +32,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "Hello, world! $SECRET_VAR $region $SECRET_VAR_REPO"
+        run: echo "Hello, world! $SECRET_VAR $region ${{ secrets.SECRET_VAR_REPO }}"
